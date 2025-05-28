@@ -1,3 +1,25 @@
+Attention Hornsense Developers
+==============================
+
+In Hornsense-backend/requirements.txt, we require a custom fitbit API. 
+The custom API is in a branch in a forked repo that a former student created.  
+
+The location of the custom API code is here:
+
+https://github.com/anibalsolon/python-fitbit/tree/feature/friends_api_update
+
+In May 2025, we forked that code to ensure that Hornsense has a reliable place to access it.
+
+In the event that we need to pull the latest changes from Anibal's work, do the following:
+
+.. code-block::
+
+
+    git pull upstream feature/friends_api_update
+
+Everything below this line, along with other code in this repo, has not been changed further.
+
+
 python-fitbit
 =============
 
